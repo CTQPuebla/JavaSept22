@@ -1,0 +1,35 @@
+package com;
+
+public class Basica extends Calculadora {
+	
+	public Basica () {
+
+	}
+
+	
+	@Override
+	public double multiplicar(int a, int b) {
+		// TODO Auto-generated method stub
+		return a*b;
+	}
+
+	@Override
+	public double suma(int a, int b) {
+		// TODO Auto-generated method stub
+		return a+b;
+	}
+
+	@Override
+	public double resta(int a, int b) {
+		// TODO Auto-generated method stub
+		return a-b;
+	}
+
+	@Override
+	public double dividir(int a, int b) {
+		// TODO Auto-generated method stub
+		return a/b;
+	}
+
+	
+}
