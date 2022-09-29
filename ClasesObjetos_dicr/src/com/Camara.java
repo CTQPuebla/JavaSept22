@@ -1,12 +1,12 @@
 package com;
 
 public class Camara {
-	
+	//Atributos
 	double tamañoSensor;
 	double zoom;
 	double distFocal;
-
-	//Contructor por default
+	
+	//Constructor por default
 	public Camara() {
 		
 	}
@@ -45,6 +45,7 @@ public class Camara {
 	public String toString() {
 		return "Camara [tamañoSensor=" + tamañoSensor + ", zoom=" + zoom + ", distFocal=" + distFocal + "]";
 	}
-	
 
+	
+	
 }

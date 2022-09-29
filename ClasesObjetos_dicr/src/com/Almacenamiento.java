@@ -1,15 +1,16 @@
 package com;
 
 public class Almacenamiento {
-	
+
 	String fabricante;
 	int capacidad;
 	
 	public Almacenamiento() {
-	
+		
 	}
 
 	public Almacenamiento(String fabricante, int capacidad) {
+		//super();
 		this.fabricante = fabricante;
 		this.capacidad = capacidad;
 	}
@@ -35,4 +36,6 @@ public class Almacenamiento {
 		return "Almacenamiento [fabricante=" + fabricante + ", capacidad=" + capacidad + "]";
 	}
 	
+	
+
 }
