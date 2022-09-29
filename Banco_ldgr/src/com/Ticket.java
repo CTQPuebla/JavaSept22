@@ -1,0 +1,102 @@
+package com;
+
+import java.util.Date;
+
+public class Ticket {
+
+	Date fecha;
+	double saldoAnterior, saldoActual, cantidadOperada;
+	String numeroCuenta, ubicacion;
+	int folioOperacion, idCajero;
+	
+	public Ticket() {
+		
+	}
+
+	public Ticket(Date fecha, double saldoAnterior, double saldoActual, double cantidadOperada, String numeroCuenta,
+			String ubicacion, int folioOperacion, int idCajero) {
+		super();
+		this.fecha = fecha;
+		this.saldoAnterior = saldoAnterior;
+		this.saldoActual = saldoActual;
+		this.cantidadOperada = cantidadOperada;
+		this.numeroCuenta = numeroCuenta;
+		this.ubicacion = ubicacion;
+		this.folioOperacion = folioOperacion;
+		this.idCajero = idCajero;
+	}
+
+	public Date getFechaHora() {
+		return fecha;
+	}
+
+	public void setFechaHora(Date fechaHora) {
+		this.fecha = fechaHora;
+	}
+
+	public double getSaldoAnterior() {
+		return saldoAnterior;
+	}
+
+	public void setSaldoAnterior(double saldoAnterior) {
+		this.saldoAnterior = saldoAnterior;
+	}
+
+	public double getSaldoActual() {
+		return saldoActual;
+	}
+
+	public void setSaldoActual(double saldoActual) {
+		this.saldoActual = saldoActual;
+	}
+
+	public double getCantidadOperada() {
+		return cantidadOperada;
+	}
+
+	public void setCantidadOperada(double cantidadOperada) {
+		this.cantidadOperada = cantidadOperada;
+	}
+
+	public String getNumeroCuenta() {
+		return numeroCuenta;
+	}
+
+	public void setNumeroCuenta(String numeroCuenta) {
+		this.numeroCuenta = numeroCuenta;
+	}
+
+	public String getUbicacion() {
+		return ubicacion;
+	}
+
+	public void setUbicacion(String ubicacion) {
+		this.ubicacion = ubicacion;
+	}
+
+	public int getFolioOperacion() {
+		return folioOperacion;
+	}
+
+	public void setFolioOperacion(int folioOperacion) {
+		this.folioOperacion = folioOperacion;
+	}
+
+	public int getIdCajero() {
+		return idCajero;
+	}
+
+	public void setIdCajero(int idCajero) {
+		this.idCajero = idCajero;
+	}
+
+	@Override
+	public String toString() {
+		return "Ticket [fechaHora=" + fecha + ",\n saldoAnterior=" + saldoAnterior + ",\n saldoActual=" + saldoActual
+				+ ",\n cantidadOperada=" + cantidadOperada + ",\n numeroCuenta=" + numeroCuenta + ",\n ubicacion=" + ubicacion
+				+ ",\n folioOperacion=" + folioOperacion + ",\n idCajero=" + idCajero + "]";
+	}
+	
+	
+}
+
